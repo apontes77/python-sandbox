@@ -36,6 +36,7 @@ a10 = Aluno(1.0, 2.0, 3.0, 5.2)
 
 alunos = []
 
+
 def calculaMediaGeral():
     alunos.append(Aluno.calculaMediaDoAluno(a1))
     alunos.append(Aluno.calculaMediaDoAluno(a2))
@@ -48,6 +49,7 @@ def calculaMediaGeral():
     alunos.append(Aluno.calculaMediaDoAluno(a9))
     alunos.append(Aluno.calculaMediaDoAluno(a10))
 
+    print("ESTES SÃO OS DISCENTES COM MÉDIA MAIOR QUE 7.0:")
     for i in range(alunos.__len__()):
         if alunos[i] >= 7.0:
             print("MEDIA DO ALUNO INDICE ", i, "é:", alunos[i])
